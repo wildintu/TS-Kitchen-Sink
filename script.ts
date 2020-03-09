@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 let names = 'Lexi';
 
 //total US states
