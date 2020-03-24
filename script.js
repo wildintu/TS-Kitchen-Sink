@@ -1,4 +1,4 @@
-"use strict";
+// import * as jQuery from 'jQuery';
 var names = 'Lexi';
 //total US states
 var states = 50;
@@ -25,26 +25,48 @@ for (var _i = 0, veggies_1 = veggies; _i < veggies_1.length; _i++) {
     var veg = veggies_1[_i];
     console.log(veg);
 }
-var object1 = {
-    names: 'Karen',
-    age: 33,
-};
-var object2 = {
-    names: 'Yoda',
-    age: 10,
-};
-var object3 = {
-    names: 'Kitty',
-    age: 13,
-};
-var object4 = {
-    names: 'Ted',
-    age: 21,
-};
-var object5 = {
-    names: 'Linda',
-    age: 24,
-};
+var objects = [
+    {
+        names: 'Karen',
+        age: 33
+    },
+    {
+        names: 'Yoda',
+        age: 10
+    },
+    {
+        names: 'Kitty',
+        age: 13
+    },
+    {
+        names: 'Ted',
+        age: 21
+    },
+    {
+        names: 'Linda',
+        age: 24
+    }
+];
+// let object1 = {
+//     names: 'Karen',
+//     age: 33,
+// }
+// let object2 = {
+//     names: 'Yoda',
+//     age: 10,
+// }
+// let object3 = {
+//     names: 'Kitty',
+//     age: 13,
+// }
+// let object4 = {
+//     names: 'Ted',
+//     age: 21,
+// }
+// let object5 = {
+//     names: 'Linda',
+//     age: 24,
+// }
 checkAge(33, 'Karen');
 checkAge(10, 'Yoda');
 checkAge(13, 'Kitty');

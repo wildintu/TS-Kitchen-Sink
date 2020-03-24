@@ -1,4 +1,4 @@
-import $ from 'jquery';
+// import * as jQuery from 'jQuery';
 
 let names = 'Lexi';
 
@@ -28,35 +28,41 @@ checkAge(27, 'Abby');
 checkAge(18, 'James');
 checkAge(17, 'John');
 
-let veggies =['Broccoli', 'Celery', 'Spinach', 'Kale'];
+let veggies: string[] =['Broccoli', 'Celery', 'Spinach', 'Kale'];
     for(let veg of veggies) {
         console.log(veg);
     }
-
-let object1 = {
-    names: 'Karen',
-    age: 33,
+interface Object {
+    name: string,
+    age: number
 }
 
-let object2 = {
-    names: 'Yoda',
-    age: 10,
-}
+let objects: Array<Object> = [
+    {
+        names: 'Karen',
+        age: 33,
+    },
 
-let object3 = {
-    names: 'Kitty',
-    age: 13,
-}
+    {
+        names: 'Yoda',
+        age: 10,
+    },
 
-let object4 = {
-    names: 'Ted',
-    age: 21,
-}
+    {
+        names: 'Kitty',
+        age: 13,
+    },
 
-let object5 = {
-    names: 'Linda',
-    age: 24,
-}
+    {
+        names: 'Ted',
+        age: 21,
+    },
+
+    {
+        names: 'Linda',
+        age: 24,
+    }
+]
 
 checkAge(33, 'Karen');
 checkAge(10, 'Yoda');
